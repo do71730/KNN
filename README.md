@@ -13,13 +13,22 @@ We classify tree species based on their geographic coordinates by finding their 
 ## Model Evaluation:
 We evaluate the classifier using:
 1. **Accuracy**  
-    \[\text{Accuracy} = \frac{TP + TN}{TP + TN + FP + FN}\]
+
+\[
+\text{Accuracy} = \frac{TP + TN}{TP + TN + FP + FN}
+\]
 
 2. **Precision**  
-    \[\text{Precision} = \frac{TP}{TP + FP}\]
+
+ \[
+\text{Precision} = \frac{TP}{TP + FP}
+\]
 
 3. **Recall**  
-    \[\text{Recall} = \frac{TP}{TP + FN}\]
+
+\[
+\text{Recall} = \frac{TP}{TP + FN}
+\]
 
 ## Libraries:
 - `pandas`: for reading csv and creatring a dataframe
